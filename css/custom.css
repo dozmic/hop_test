@@ -1,0 +1,61 @@
+body, html {
+  height: 100%;
+}
+
+#topBar{
+    vertical-align: bottom;
+    text-align:center; 
+    height:44px;
+}
+
+#tabBar{
+    height:50px;
+}
+
+.tabButton{
+    height:50px;
+    vertical-align: middle;
+    font-size: 100;
+}
+
+#headerContent{
+    background-color: transparent;
+    border-bottom-width: 0px;
+}
+
+#homeContent {
+    background-image:url(/resources/1.jpg);
+    background-size: cover;
+    
+}
+
+#leaveButton {
+    width:110px;
+    background-color: #C0FF42;
+}
+
+#facebookButton {
+    width:110px;
+    background-color: #82BCFF;
+}
+
+#twitterButton {
+    width:110px;
+    background-color: #FFE629;
+}
+
+#welcomeLabel {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -25px;
+}
+
+#clubName {
+    color: white;
+    font-size: 50px;
+}
+
+#shareLabel {
+    color: white;
+    font-size: 20px;
+}

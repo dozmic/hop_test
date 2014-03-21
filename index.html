@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="frameworks/jQuery_Mobile/css/jquery.mobile-1.4.1.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+   
+    <script src="frameworks/jQuery_Mobile/js/jquery-1.10.2.min.js"></script>
+    <script src="frameworks/jQuery_Mobile/js/jquery.mobile-1.4.1.min.js"></script>
+    <script src="js/cordova.js"></script>
+    <script src="js/phonegap.js"></script>
+    
+</head>
+
+<body>
+    <div  data-role="page" id="pageHome" data-theme="b">
+        
+        <div data-role="panel" id="mypanel" data-dismissible="true" data-swipe="false" data-theme="a" data-position="right" data-display="push" >
+            <p>test</p>
+        </div>
+        
+        
+        <div data-role="header" id="headerContent">
+            <h1>HOP</h1>
+            <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext"></a>
+            <a href="#mypanel" data-role="button" data-icon="grid" data-iconpos="notext"></a>
+        </div>
+        
+     
+        
+        <div data-role="content" align=right id="homeContent">
+            <h2 id="welcomeLabel">Welcome to</h2>
+            <h1 id="clubName">Hyve</h1>
+            <h3 id="shareLabel">Share:</h3>
+            <button id="facebookButton">Facebook</button> 
+            <button id="twitterButton">Twitter</button> 
+            <br><br><br>
+            <form action="index.html">
+                <button id="leaveButton">LEAVE</button> 
+            </form>
+        </div>
+        
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#pageHome"       data-theme="b"  data-icon="home"></a></li>
+                  <li><a href="#pageSearch"     data-theme="b"  data-icon="location"></a></li>
+                  <li><a href="#pageChallenges" data-theme="b"  data-icon="star"></a></li>
+                  <li><a href="#pageProfile"    data-theme="b"  data-icon="user"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div data-role="page" data-theme="b" id="pageSearch"> 
+        
+       <div data-role="panel" id="mypanel" data-dismissible="true" data-swipe="false" data-theme="a" data-position="right" data-display="push" >
+            
+        </div>
+        
+            <div data-role="header" id="headerContent">
+                <h1>HOP</h1>
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext">Delete</a>
+                <a href="#mypanel" data-role="button" data-icon="grid" data-iconpos="notext">Delete</a>
+            </div>
+        
+        <div data-role="content">
+            <h1>Clubs/Bars</h1>
+            <ul data-role="listview">
+                <li><a href="/bars/hyve.html" data-transition="slide">Hyve</a></li>
+                <li><a href="#">Prive</a></li>
+                <li><a href="#">Palladium</a></li>
+                <li><a href="#">Haze</a></li>
+                <li><a href="#">Eden</a></li>
+            </ul>
+        </div>
+        
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#pageHome"       data-theme="b"  data-icon="home"></a></li>
+                  <li><a href="#pageSearch"     data-theme="b"  data-icon="location"></a></li>
+                  <li><a href="#pageChallenges" data-theme="b"  data-icon="star"></a></li>
+                  <li><a href="#pageProfile"    data-theme="b"  data-icon="user"></a></li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    <div data-role="page" data-theme="b" id="pageChallenges"> 
+        
+        <div data-role="panel" id="mypanel" data-dismissible="true" data-swipe="false" data-theme="a" data-position="right" data-display="push" >
+            
+        </div>
+        
+            <div data-role="header" id="headerContent">
+                <h1>HOP</h1>
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext">Delete</a>
+                <a href="#mypanel" data-role="button" data-icon="grid" data-iconpos="notext">Delete</a>
+            </div>
+        
+        <div data-role="content">
+            <h1>My Challenges</h1>
+            <ul data-role="listview">
+                <li><a href="#">Kiss a girl</a></li>
+                <li><a href="#">Drink 3 shots of tequila straight</a></li>
+                <li><a href="#">Tap this between 2:10am - 2:30am</a></li>
+            </ul>
+        </div>
+        
+        <div data-role="footer" data-position="fixed" >
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#pageHome"       data-theme="b"  data-icon="home"></a></li>
+                  <li><a href="#pageSearch"     data-theme="b"  data-icon="location"></a></li>
+                  <li><a href="#pageChallenges" data-theme="b"  data-icon="star"></a></li>
+                  <li><a href="#pageProfile"    data-theme="b"  data-icon="user"></a></li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    <div data-role="page" data-theme="b" id="pageProfile"> 
+        
+        <div data-role="panel" id="mypanel" data-dismissible="true" data-swipe="false" data-theme="a" data-position="right" data-display="push" >
+            
+        </div>
+        
+            <div data-role="header" id="headerContent">
+                <h1>HOP</h1>
+                <a href="index.html" data-role="button" data-icon="home" data-iconpos="notext">Delete</a>
+                <a href="#mypanel" data-role="button" data-icon="grid" data-iconpos="notext">Delete</a>
+            </div>
+        
+        <div data-role="content">
+            <div style="text-align:center;">
+                <img src="/resources/sampleProfilePic.png" height="100" width="100">
+                <hgroup>
+                    <h1>Luke Beerwalker</h1>
+                    <h2>"The Girlcrawler"</h2>
+                    <br><br><br>
+                    <h3>- insert more info here -</h3>
+                </hgroup>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a href="#pageHome"       data-theme="b"  data-icon="home"></a></li>
+                  <li><a href="#pageSearch"     data-theme="b"  data-icon="location"></a></li>
+                  <li><a href="#pageChallenges" data-theme="b"  data-icon="star"></a></li>
+                  <li><a href="#pageProfile"    data-theme="b"  data-icon="user"></a></li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+
+</body>
+</html>
